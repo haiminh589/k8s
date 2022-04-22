@@ -1,0 +1,4 @@
+FROM node:alpine
+LABEL author="Kien Bui"
+COPY server.js /server.js
+ENTRYPOINT ["node", "server.js"]
